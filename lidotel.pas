@@ -1,21 +1,6 @@
 program Lidotel;
 
 {$codepage utf8}
-uses
-	SysUtils, crt;
-	
-type // types para los records de los clientes en general
-  TClienteBase = record 
-    cedula: string;
-    nombre: string;
-    apellido:string;
-    email: string;
-    telefono: string;
-    dias: integer;
-    habitacion: string;
-    costeHabitacion: integer;
-    costoTotal: Longint;
-  end;
 
   TAcompanante = record 
     cedulaBase: string;
