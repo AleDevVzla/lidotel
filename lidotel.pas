@@ -2,25 +2,6 @@ program Lidotel;
 
 {$codepage utf8}
 
-  TAcompanante = record 
-    cedulaBase: string;
-    nombre: string;
-    apellido:string;
-    clienteNombre: string;
-    cedula: string;
-	email: string;
-	telefono: string;
-  end;
-
-  TGrupoFamiliar = record
-	clienteNombre: string;
-    cedulaBase: string;
-    nombre: string;
-    edad: integer;
-    tipo: string; 
-  end;
-
-var
   opcion: integer;
   
 procedure hFamilyRoom;	// Descripciones de la habitacion Family Room 
